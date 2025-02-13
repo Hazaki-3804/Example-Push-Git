@@ -1,0 +1,106 @@
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100%;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.banner {
+  height    : 500px;
+  width     : 100%;
+  background: url(pexels-nietjuhart-934062.jpg) no-repeat center/cover fixed;
+  padding   : 20px;
+}
+
+.banner .about-signIn {
+  height    : 80px;
+  width     : 100%;
+  text-align: right;
+}
+
+.banner .about-signIn .about,
+.banner .about-signIn .sign-in {
+  display        : inline-block;
+  text-decoration: none;
+  font-size      : 20px;
+  margin         : 20px 25px 0 0;
+  padding        : 10px;
+  text-transform : uppercase;
+}
+
+.banner .about-signIn .about {
+  color: greenyellow;
+}
+
+.banner .about-signIn .sign-in {
+  border       : 1px solid gray;
+  border-radius: 10px;
+}
+
+.banner .about-signIn .sign-in:hover {
+  color       : aqua;
+  border-color: aqua;
+}
+
+.banner .logo {
+  display   : block;
+  margin    : 20px auto;
+  height    : 100px;
+  width     : 200px;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTxHojlKsqiwJs6fStFbWI54cXIuexu1heRw&s) center center no-repeat;
+}
+
+.banner .content-center {
+  text-align: center;
+}
+
+.banner .content-center .gift,
+.banner .content-center .like,
+.banner .content-center .clock {
+  width     : 20%;
+  display   : inline-block;
+  text-align: center;
+}
+
+.banner .content-center img {
+  width : 30px;
+  height: 30px;
+}
+
+.banner .content-center span {
+  margin-top: 5px;
+  display   : block;
+  font-size : 20px;
+}
+
+.banner .btn-start-now {
+  text-align: center;
+}
+
+.banner .btn-start-now .btn {
+  text-transform: uppercase;
+  padding       : 10px 15px;
+  border-radius : 20px;
+  border        : 2px solid greenyellow;
+  color         : green;
+  cursor        : pointer;
+}
+
+.banner .text {
+  margin    : 20px 0;
+  text-align: center;
+  font-style: italic;
+}
+
+.banner .text span {
+  color: red;
+}
+
+/*# sourceMappingURL=vd.css.map */
